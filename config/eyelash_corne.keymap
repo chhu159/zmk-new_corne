@@ -65,10 +65,10 @@
         lower_layer {
             display-name = "NUMBER";
             bindings = <
-&kp ESC         &kp EXCLAMATION  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT                                      &mmv MOVE_UP                     &kp CARET       &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH
-&kp RCTRL       &kp N1           &kp N2  &kp N3    &kp N4      &kp N5                           &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS       &kp EQUAL      &kp GRAVE     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PIPE
-&kp LEFT_SHIFT  &kp NUMBER_6     &kp N7  &kp N8    &kp N9      &kp N0       &kp K_PLAY_PAUSE                    &mmv MOVE_DOWN                   &kp UNDERSCORE  &kp PLUS       &kp TILDE     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp RIGHT_SHIFT
-                                         &trans    &trans      &trans                                                                            &kp BACKSPACE   &kp SPACE      &kp ENTER
+&kp ESC         &kp EXCLAMATION  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT                               &mmv MOVE_UP                     &kp CARET          &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH
+&kp RCTRL       &kp N1           &kp N2  &kp N3    &kp N4      &kp N5                    &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS          &kp EQUAL      &kp GRAVE     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PIPE
+&kp LEFT_SHIFT  &kp NUMBER_6     &kp N7  &kp N8    &kp N9      &kp N0       &mkp MCLK                    &mmv MOVE_DOWN                   &kp UNDERSCORE     &kp PLUS       &kp TILDE     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp RIGHT_SHIFT
+                                         &trans    &trans      &trans                                                                     &kp RIGHT_COMMAND  &kp SPACE      &kp ENTER
             >;
 
             sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
@@ -77,10 +77,10 @@
         raise_layer {
             display-name = "MISC";
             bindings = <
-&bt BT_CLR_ALL  &kp F1        &kp F2        &kp F3        &kp F4            &kp F5                                         &trans          &kp F6         &kp F7     &kp F8    &kp F9   &kp F10    &kp BSPC
-&bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3      &bt BT_SEL 4                           &trans  &trans  &trans  &trans         &kp LEFT   &kp DOWN  &kp UP   &kp RIGHT  &trans
-&trans          &trans        &trans        &trans        &trans            &trans        &kp C_BRIGHTNESS_AUTO            &trans          &kp BACKSPACE  &kp ENTER  &trans    &kp F11  &kp F12    &trans
-                                            &kp LEFT_ALT  &kp LEFT_COMMAND  &kp SPACE                                                      &trans         &trans     &trans
+&trans  &kp F1        &kp F2        &kp F3        &kp F4            &kp F5                                         &trans            &kp F6         &kp F7     &kp F8    &kp F9   &kp F10    &kp BSPC
+&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3      &bt BT_SEL 4                           &trans  &kp CAPS  &trans  &trans         &kp LEFT   &kp DOWN  &kp UP   &kp RIGHT  &trans
+&trans  &trans        &trans        &trans        &trans            &bt BT_CLR    &kp C_BRIGHTNESS_AUTO            &trans            &kp BACKSPACE  &kp ENTER  &trans    &kp F11  &kp F12    &trans
+                                    &kp LEFT_ALT  &kp LEFT_COMMAND  &kp SPACE                                                        &trans         &trans     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
