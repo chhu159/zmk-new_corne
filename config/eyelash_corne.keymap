@@ -21,6 +21,8 @@
 #define ZMK_MOUSE_DEFAULT_MOVE_VAL 1200  // 600
 #define ZMK_MOUSE_DEFAULT_SCRL_VAL 20    // 10
 
+&lt { flavor = "hold-preferred"; };
+
 / {
     behaviors {
         td0: td0 {
@@ -51,9 +53,9 @@
         default_layer {
             display-name = "QWERTY";
             bindings = <
-&kp TAB         &kp Q  &kp W  &kp E         &kp R             &kp T                              &kp UP                &kp Y            &kp U                  &kp I      &kp O    &kp P     &kp BACKSPACE
-&kp RCTRL       &kp A  &kp S  &kp D         &kp F             &kp G                    &kp LEFT  &kp ENTER  &kp RIGHT  &kp H            &kp J                  &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LEFT_SHIFT  &kp Z  &kp X  &kp C         &kp V             &kp B      &kp K_MUTE              &kp DOWN              &kp N            &kp M                  &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
+&kp TAB         &kp Q  &kp W  &kp E         &kp R             &kp T                              &kp UP                &kp Y            &kp U      &kp I                &kp O    &kp P     &kp BACKSPACE
+&kp RCTRL       &kp A  &kp S  &kp D         &kp F             &kp G                    &kp LEFT  &kp ENTER  &kp RIGHT  &kp H            &kp J      &kp K                &kp L    &kp SEMI  &kp SQT
+&kp LEFT_SHIFT  &kp Z  &kp X  &kp C         &kp V             &kp B      &kp K_MUTE              &kp DOWN              &kp N            &kp M      &kp COMMA            &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
                               &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 1 TAB                                                &lt 2 BACKSPACE  &kp SPACE  &mt RIGHT_SHIFT RET
             >;
 
