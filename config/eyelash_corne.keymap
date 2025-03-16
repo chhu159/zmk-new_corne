@@ -29,9 +29,6 @@
             #binding-cells = <0>;
             bindings = <&kp LEFT_SHIFT>, <&kp CAPS>;
         };
-        &lt {
-            flavor = "hold-preferred";
-        };
     };
 
     rgb_encoder: rgb_encoder {
