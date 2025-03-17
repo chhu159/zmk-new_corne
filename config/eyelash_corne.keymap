@@ -78,9 +78,9 @@
             display-name = "MISC";
             bindings = <
 &kp DEL           &kp F1        &kp F2        &kp F3        &kp F4            &kp F5                                         &trans            &kp F6             &kp F7                &kp F8          &kp F9   &kp F10    &kp BSPC
-&kp LEFT_CONTROL  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3      &bt BT_SEL 4                           &trans  &kp CAPS  &trans  &kp LA(LG(RIGHT))  &kp LEFT              &kp DOWN        &kp UP   &kp RIGHT  &kp RA(BACKSPACE)
-&trans            &trans        &trans        &trans        &trans            &bt BT_CLR    &kp C_BRIGHTNESS_AUTO            &trans            &kp LA(LG(LEFT))   &kp RG(RS(NUMBER_4))  &kp RG(RS(N5))  &kp F11  &kp F12    &kp RG(BACKSPACE)
-                                              &kp LEFT_ALT  &kp LEFT_COMMAND  &kp SPACE                                                        &trans             &trans                &trans
+&kp LEFT_CONTROL  &trans        &trans        &trans        &trans            &trans                                 &trans  &kp CAPS  &trans  &kp LA(LG(RIGHT))  &kp LEFT              &kp DOWN        &kp UP   &kp RIGHT  &kp RA(BACKSPACE)
+&trans            &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3      &bt BT_SEL 4  &kp C_BRIGHTNESS_AUTO            &trans            &kp LA(LG(LEFT))   &kp RG(RS(NUMBER_4))  &kp RG(RS(N5))  &kp F11  &kp F12    &kp RG(BACKSPACE)
+                                              &kp LEFT_ALT  &kp LEFT_COMMAND  &kp SPACE                                                        &trans             &trans                &bt BT_CLR
             >;
 
             sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
