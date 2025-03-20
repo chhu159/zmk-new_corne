@@ -53,10 +53,10 @@
         default_layer {
             display-name = "QWERTY";
             bindings = <
-&kp TAB         &kp Q  &kp W  &kp E         &kp R             &kp T                              &kp UP                &kp Y            &kp U      &kp I                &kp O    &kp P     &kp BACKSPACE
-&kp RCTRL       &kp A  &kp S  &kp D         &kp F             &kp G                    &kp LEFT  &kp ENTER  &kp RIGHT  &kp H            &kp J      &kp K                &kp L    &kp SEMI  &kp SQT
-&kp LEFT_SHIFT  &kp Z  &kp X  &kp C         &kp V             &kp B      &kp K_MUTE              &kp DOWN              &kp N            &kp M      &kp COMMA            &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
-                              &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 1 TAB                                                &lt 2 BACKSPACE  &kp SPACE  &mt RIGHT_SHIFT RET
+&kp TAB           &kp Q  &kp W  &kp E              &kp R                    &kp T                                    &kp UP                &kp Y      &kp U      &kp I                &kp O    &kp P     &kp BACKSPACE
+&kp LEFT_COMMAND  &kp A  &kp S  &kp D              &kp F                    &kp G                          &kp LEFT  &kp ENTER  &kp RIGHT  &kp H      &kp J      &kp K                &kp L    &kp SEMI  &kp SQT
+&kp LEFT_SHIFT    &kp Z  &kp X  &kp C              &kp V                    &kp B            &kp K_MUTE              &kp DOWN              &kp N      &kp M      &kp COMMA            &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
+                                &kp LC(BACKSPACE)  &mt LCTRL LA(BACKSPACE)  &lt 1 BACKSPACE                                                &lt 2 TAB  &kp SPACE  &mt RIGHT_SHIFT RET
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -78,8 +78,8 @@
             display-name = "MISC";
             bindings = <
 &kp DEL           &kp F1        &kp F2        &kp F3        &kp F4            &kp F5                                         &trans            &kp F6             &kp F7                &kp F8          &kp F9   &kp F10    &kp BSPC
-&kp LEFT_CONTROL  &trans        &trans        &trans        &trans            &trans                                 &trans  &kp CAPS  &trans  &kp LA(LG(RIGHT))  &kp LEFT              &kp DOWN        &kp UP   &kp RIGHT  &kp RA(BACKSPACE)
-&trans            &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3      &bt BT_SEL 4  &kp C_BRIGHTNESS_AUTO            &trans            &kp LA(LG(LEFT))   &kp RG(RS(NUMBER_4))  &kp RG(RS(N5))  &kp F11  &kp F12    &kp RG(BACKSPACE)
+&kp LEFT_CONTROL  &trans        &trans        &trans        &trans            &trans                                 &trans  &kp CAPS  &trans  &kp LA(LC(RIGHT))  &kp LEFT              &kp DOWN        &kp UP   &kp RIGHT  &trans
+&trans            &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3      &bt BT_SEL 4  &kp C_BRIGHTNESS_AUTO            &trans            &kp LA(LC(LEFT))   &kp LC(LS(NUMBER_4))  &kp LS(LC(N5))  &kp F11  &kp F12    &trans
                                               &kp LEFT_ALT  &kp LEFT_COMMAND  &kp SPACE                                                        &trans             &trans                &bt BT_CLR
             >;
 
