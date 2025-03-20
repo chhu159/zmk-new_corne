@@ -14,7 +14,7 @@ layers:
   - O
   - P
   - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-command$$
   - A
   - S
   - D
@@ -43,10 +43,10 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-command$$
-  - {t: '$$mdi:keyboard-tab$$', h: NUMBER}
-  - {t: '$$mdi:backspace$$', h: MISC}
+  - {t: 'Ctl+$$mdi:backspace$$', type: backspace}
+  - {t: 'Alt+$$mdi:backspace$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '$$mdi:backspace$$', h: NUMBER}
+  - {t: '$$mdi:keyboard-tab$$', h: MISC}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
   NUMBER:
@@ -121,12 +121,12 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-caps$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - Alt+Gui+$$mdi:arrow-right-bold$$
+  - Alt+Ctl+$$mdi:arrow-right-bold$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
-  - {t: 'AltGr+$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
@@ -135,12 +135,12 @@ layers:
   - {h: '5', s: '$$mdi:bluetooth-connect$$'}
   - BRIGHTNESS AUTO
   - {t: '$$mdi:transfer$$', type: trans}
-  - Alt+Gui+$$mdi:arrow-left-bold$$
-  - Gui+Sft+4
-  - {t: Gui+Sft+5, s: Gui+Sft+%}
+  - Alt+Ctl+$$mdi:arrow-left-bold$$
+  - Ctl+Sft+4
+  - {t: Sft+Ctl+5, s: Sft+Ctl+%}
   - F11
   - F12
-  - {t: 'Gui+$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:keyboard-space$$
