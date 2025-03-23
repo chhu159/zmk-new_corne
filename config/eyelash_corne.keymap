@@ -53,10 +53,10 @@
         default_layer {
             display-name = "QWERTY";
             bindings = <
-&kp TAB           &kp Q  &kp W  &kp E                       &kp R                    &kp T                                    &kp UP                &kp Y      &kp U      &kp I                &kp O    &kp P     &kp BACKSPACE
-&kp LEFT_COMMAND  &kp A  &kp S  &kp D                       &kp F                    &kp G                          &kp LEFT  &kp ENTER  &kp RIGHT  &kp H      &kp J      &kp K                &kp L    &kp SEMI  &kp SQT
-&kp LEFT_SHIFT    &kp Z  &kp X  &kp C                       &kp V                    &kp B            &kp K_MUTE              &kp DOWN              &kp N      &kp M      &kp COMMA            &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
-                                &mt LEFT_ALT LC(BACKSPACE)  &mt LCTRL LA(BACKSPACE)  &lt 1 BACKSPACE                                                &lt 2 TAB  &kp SPACE  &mt RIGHT_SHIFT RET
+&kp TAB           &kp Q  &kp W  &kp E                       &kp R                &kp T                                            &kp RG(UP)                   &kp Y      &kp U      &kp I                &kp O    &kp P     &kp BACKSPACE
+&kp LEFT_COMMAND  &kp A  &kp S  &kp D                       &kp F                &kp G                              &kp RG(LEFT)  &kp ENTER     &kp RG(RIGHT)  &kp H      &kp J      &kp K                &kp L    &kp SEMI  &kp SQT
+&kp LEFT_SHIFT    &kp Z  &kp X  &kp C                       &kp V                &kp B                &kp K_MUTE                  &kp RG(DOWN)                 &kp N      &kp M      &kp COMMA            &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
+                                &mt LEFT_ALT LC(BACKSPACE)  &mt LCTRL BACKSPACE  &lt 1 LA(BACKSPACE)                                                           &lt 2 TAB  &kp SPACE  &mt RIGHT_SHIFT RET
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -67,7 +67,7 @@
             bindings = <
 &kp ESC         &kp EXCLAMATION  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT                               &mmv MOVE_UP                     &kp CARET          &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSPACE
 &kp RCTRL       &kp N1           &kp N2  &kp N3    &kp N4      &kp N5                    &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS          &kp EQUAL      &kp GRAVE     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PIPE
-&kp LEFT_SHIFT  &kp NUMBER_6     &kp N7  &kp N8    &kp N9      &kp N0       &mkp MCLK                    &mmv MOVE_DOWN                   &kp UNDERSCORE     &kp PLUS       &kp TILDE     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp SLASH
+&kp LEFT_SHIFT  &kp NUMBER_6     &kp N7  &kp N8    &kp N9      &kp N0       &mkp MCLK                    &mmv MOVE_DOWN                   &kp UNDERSCORE     &kp PLUS       &kp TILDE     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp BACKSLASH
                                          &trans    &trans      &trans                                                                     &kp RIGHT_COMMAND  &kp SPACE      &kp ENTER
             >;
 
