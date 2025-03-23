@@ -43,9 +43,9 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
-  - {t: 'Ctl+$$mdi:backspace$$', h: '$$mdi:apple-keyboard-option$$'}
+  - {t: 'Alt+$$mdi:backspace$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: 'Alt+$$mdi:backspace$$', h: NUMBER}
+  - {t: 'Ctl+$$mdi:backspace$$', h: NUMBER}
   - {t: '$$mdi:keyboard-tab$$', h: MISC}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
