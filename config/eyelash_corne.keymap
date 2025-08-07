@@ -23,10 +23,10 @@
 
 &lt {
     flavor = "hold-preferred";
-    tapping-term-ms = <125>;
+    tapping-term-ms = <150>;
 };
 
-&mt { tapping-term-ms = <125>; };
+&mt { tapping-term-ms = <150>; };
 
 / {
     behaviors {
